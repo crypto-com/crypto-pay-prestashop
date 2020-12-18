@@ -10,7 +10,7 @@ This module requires the following:
 
 * Download the module zip package in [Releases](https://github.com/crypto-com/crypto-pay-prestashop/releases) page.
 * Upload the module in Module Manager of your PrestaShop BackOffice.
-* Refer to our [Setup Instructions](https://help.crypto.com/en/articles/4190858-what-e-commerce-platforms-does-crypto-com-pay-support) in our Merchant FAQ.
+* Refer to our [Setup Instructions](https://help.crypto.com/en/articles/4732840-prestashop-setup-guide) in our Merchant FAQ.
 
 ## Support
 
