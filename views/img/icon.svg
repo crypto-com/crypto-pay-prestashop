@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="44.687496"
+   height="25"
+   version="1.1"
+   id="svg74"
+   sodipodi:docname="icon25px.svg"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
+  <metadata
+     id="metadata80">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Button/Primary/Pay/Standalone/Standard width</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs78" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1601"
+     inkscape:window-height="832"
+     id="namedview76"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="9.8255814"
+     inkscape:cx="42.266669"
+     inkscape:cy="23.775758"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg74" />
+  <rect
+     id="backgroundrect"
+     width="100%"
+     height="100%"
+     x="-0.73333144"
+     y="-3.2242424"
+     fill="none"
+     stroke="none"
+     class="" />
+  <!-- Generator: Sketch 56.3 (81716) - https://sketch.com -->
+  <title
+     id="title47">Button/Primary/Pay/Standalone/Standard width</title>
+  <desc
+     id="desc49">Created with Sketch.</desc>
+  <g
+     id="g54"
+     transform="translate(-0.73333144,-3.2242424)">
+    <title
+       id="title51">background</title>
+    <rect
+       fill="none"
+       id="canvas_background"
+       height="48"
+       width="86"
+       y="-1"
+       x="-1" />
+  </g>
+  <g
+     class="currentLayer"
+     id="g72"
+     transform="matrix(0.52083333,0,0,0.52083333,-0.38194346,-1.6792929)">
+    <title
+       id="title56">Layer 1</title>
+    <g
+       fill-rule="evenodd"
+       fill="none"
+       id="Button/Primary/Pay/Standalone/Standard-width"
+       class="">
+      <g
+         stroke="null"
+         id="Elements/Buttons/Button">
+        <rect
+           stroke="null"
+           x="0.73333144"
+           y="3.2242424"
+           rx="4"
+           height="48"
+           width="85.799995"
+           fill="#002c74"
+           id="bg" />
+        <g
+           stroke="null"
+           id="crypto-pay-text">
+          <g
+             stroke="null"
+             fill="#ffffff"
+             id="Pay">
+            <path
+               stroke="null"
+               id="Fill-1"
+               d="m 52.089908,23.271753 c 0,3.44098 -2.77953,5.20659 -6.06558,5.20659 h -3.74901 v 5.59077 h -1.74197 v -15.84487 h 5.77874 c 3.48485,0 5.77782,1.90142 5.77782,5.04751 m -1.76375,0.06791 c 0,-2.28654 -1.65483,-3.4633 -4.14751,-3.4633 h -3.90333 v 6.97219 h 3.81618 c 2.55804,0 4.23466,-1.40374 4.23466,-3.50889 m 7.94008,0.40745 c -1.34619,0 -2.40462,0.36186 -3.46397,0.86047 l -0.50652,-1.42606 c 1.25632,-0.58885 2.49268,-0.97397 4.1466,-0.97397 3.10995,0 4.85192,1.62979 4.85192,4.7089 v 7.15266 h -1.63213 v -1.7656 c -0.79338,1.0642 -2.11688,2.01491 -4.12391,2.01491 -2.11778,0 -4.25735,-1.22234 -4.25735,-3.66703 0,-2.49027 1.98525,-3.80284 4.87462,-3.80284 1.45512,0 2.49268,0.20372 3.50664,0.49768 v -0.40745 c 0,-2.10515 -1.25724,-3.19167 -3.3959,-3.19167 m 0.06536,4.39169 c 1.38977,0 2.51447,0.2493 3.35232,0.49768 v 1.13211 c 0,1.85584 -1.72018,3.16934 -3.81527,3.16934 -1.54408,0 -2.86758,-0.86047 -2.86758,-2.35445 0,-1.49397 1.19187,-2.44468 3.33053,-2.44468 z m 10.45864,10.08544 1.50233,-4.00471 -5.25043,-11.80946 h 1.87542 l 4.14569,9.75641 3.66095,-9.75641 h 1.80915 l -6.26166,15.81417 z" />
+          </g>
+          <g
+             stroke="null"
+             fill="#fefefe"
+             id="Logo/Icon/White">
+            <g
+               stroke="null"
+               id="Group">
+              <path
+                 stroke="null"
+                 id="path61"
+                 d="m 11.533348,21.312743 v 11.57646 l 9.97426,5.78906 9.97208,-5.78906 v -11.57646 l -9.97208,-5.7885 z m 0.87791,11.06893 v -10.55919 l 9.09635,-5.28208 9.0969,5.28208 v 10.55919 l -9.0969,5.27987 z" />
+              <polygon
+                 stroke="null"
+                 points="26.360847,24.538967 25.416161,20.522167 17.578972,20.522167 16.670433,24.538967 "
+                 id="Fill-2" />
+              <polygon
+                 stroke="null"
+                 points="14.020805,27.877174 17.601891,34.137443 19.032265,34.137443 20.724083,32.554367 20.724083,31.758709 18.969353,30.066757 18.969353,27.397686 16.647987,25.914137 "
+                 id="Fill-3" />
+              <polygon
+                 stroke="null"
+                 points="19.572639,29.903614 21.506783,29.903614 23.459496,29.894817 23.216087,27.389053 24.052971,25.145033 18.978065,25.145033 19.833015,27.389053 "
+                 id="Fill-4" />
+              <polygon
+                 stroke="null"
+                 points="22.325706,31.758709 22.325706,32.554367 24.017006,34.11985 25.429298,34.11985 28.992928,27.877174 26.374519,25.895992 24.079903,27.397686 24.079903,30.066757 "
+                 id="Fill-5" />
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
