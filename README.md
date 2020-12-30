@@ -3,7 +3,7 @@
 ## Requirements
 
 This module requires the following:
-* [PrestaShop](https://www.prestashop.com/)
+* [PrestaShop](https://www.prestashop.com/) v1.7.0.0 or newer
 * [Crypto.com Pay for Business](https://merchant.crypto.com/) account
 
 ## Setup
