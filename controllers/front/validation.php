@@ -257,9 +257,8 @@ class CryptoPayValidationModuleFrontController extends ModuleFrontController
                         '&id_order=' . $this->module->currentOrder . '&key=' . $customer->secure_key;
 
                     if (Configuration::get('PS_REWRITING_SETTINGS')) {
-                        $url = Context::getContext()->shop->getBaseURL(true) .
-                            'order-confirmation?id_cart=' .
-                            $this->context->cart->id . '&id_module=' . $this->module->id .
+                        $url = (new Link())->getPageLink("order-confirmation", $this->ssl, $this->context->language->id);
+                        $url .= '?id_cart=' . $this->context->cart->id . '&id_module=' . $this->module->id .
                             '&id_order=' . $this->module->currentOrder . '&key=' . $customer->secure_key;
                     }
                     die(
