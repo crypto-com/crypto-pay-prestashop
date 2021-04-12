@@ -1,6 +1,6 @@
 <?php
 /*
-* 2018-2020 Foris Limited ("Crypto.com")
+* 2018-2021 Foris Limited ("Crypto.com")
 *
 * NOTICE OF LICENSE
 *
@@ -17,7 +17,7 @@
 * limitations under the License.
 *
 *  @author     Crypto.com <pay@crypto.com>
-*  @copyright  2018-2020 Foris Limited ("Crypto.com")
+*  @copyright  2018-2021 Foris Limited ("Crypto.com")
 *  @license    http://www.apache.org/licenses/LICENSE-2.0  Apache License, Version 2.0
 */
 
@@ -251,16 +251,21 @@ class CryptoPayValidationModuleFrontController extends ModuleFrontController
                     $payment['id_crypto_pay'] = (int)$payment['id_crypto_pay'];
                     $cryptopaytransactions = new CryptoPayTransactions();
                     $cryptopaytransactions->updateTransaction($payment);
-                    $url = Context::getContext()->shop->getBaseURL(true) .
-                        '/index.php?controller=order-confirmation&id_cart=' .
-                        $this->context->cart->id . '&id_module=' . $this->module->id .
-                        '&id_order=' . $this->module->currentOrder . '&key=' . $customer->secure_key;
-
-                    if (Configuration::get('PS_REWRITING_SETTINGS')) {
-                        $url = (new Link())->getPageLink("order-confirmation", $this->ssl, $this->context->language->id);
-                        $url .= '?id_cart=' . $this->context->cart->id . '&id_module=' . $this->module->id .
-                            '&id_order=' . $this->module->currentOrder . '&key=' . $customer->secure_key;
-                    }
+                    
+                    $url = Context::getContext()->link->getPageLink('order-confirmation');
+                    
+                    $query = parse_url($url, PHP_URL_QUERY);
+                    
+                    if ($query) {
+                        $url .= '&id_cart=' .
+                                    $this->context->cart->id . '&id_module=' . $this->module->id .
+                                    '&id_order=' . $this->module->currentOrder . '&key=' . $customer->secure_key;
+                    } else {
+                        $url .= '?id_cart=' .
+                                    $this->context->cart->id . '&id_module=' . $this->module->id .
+                                    '&id_order=' . $this->module->currentOrder . '&key=' . $customer->secure_key;
+                    }    
+                        
                     die(
                         Tools::jsonEncode(
                             array(
