@@ -1,6 +1,6 @@
 <?php
 /*
-* 2018-2020 Foris Limited ("Crypto.com")
+* 2018-2021 Foris Limited ("Crypto.com")
 *
 * NOTICE OF LICENSE
 *
@@ -17,7 +17,7 @@
 * limitations under the License.
 *
 *  @author     Crypto.com <pay@crypto.com>
-*  @copyright  2018-2020 Foris Limited ("Crypto.com")
+*  @copyright  2018-2021 Foris Limited ("Crypto.com")
 *  @license    http://www.apache.org/licenses/LICENSE-2.0  Apache License, Version 2.0
 */
 
@@ -51,7 +51,6 @@ class Cryptopay extends PaymentModule
         $this->currencies = true;
         $this->module_key = '7a10b1c0440ed9b43192fd15f8188f31';
         $this->currencies_mode = 'checkbox';
-        $this->limited_currencies = array('USD', 'EUR');
         $this->bootstrap = true;
         parent::__construct();
         $this->displayName = $this->l('Crypto.com Pay');
@@ -100,12 +99,6 @@ class Cryptopay extends PaymentModule
                 (int)Tab::getIdFromClassName('AdminCryptoPay')
             )
         ) {
-            return false;
-        }
-        if (!Currency::exists('USD', 0) &&
-            !Currency::exists('EUR', 0)) {
-            $this->_errors[] = $this->l('Crypto.com Payment Method is only available 
-            when one of this (USD, EUR) currency is activated.');
             return false;
         }
         return true;
