@@ -43,7 +43,7 @@ class Cryptopay extends PaymentModule
     {
         $this->name = 'cryptopay';
         $this->tab = 'payments_gateways';
-        $this->version = '1.0.0';
+        $this->version = '1.0.1';
         $this->ps_versions_compliancy = array('min' => '1.7', 'max' => _PS_VERSION_);
         $this->author = 'Crypto.com';
         $this->controllers = array('validation');
