@@ -1,5 +1,5 @@
 {*
-* 2018-2021 Foris Limited ("Crypto.com")
+* Copyright 2022 Crypto.com
 *
 * NOTICE OF LICENSE
 *
@@ -16,7 +16,7 @@
 * limitations under the License.
 *
 *  @author     Crypto.com <pay@crypto.com>
-*  @copyright  2018-2021 Foris Limited ("Crypto.com")
+*  @copyright  2022 Crypto.com
 *  @license    http://www.apache.org/licenses/LICENSE-2.0  Apache License, Version 2.0
 *}
 
