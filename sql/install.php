@@ -1,6 +1,6 @@
 <?php
 /*
-* Copyright 2022 Crypto.com
+* Copyright 2024 Crypto.com
 *
 * NOTICE OF LICENSE
 *
@@ -17,13 +17,13 @@
 * limitations under the License.
 *
 *  @author     Crypto.com <pay@crypto.com>
-*  @copyright  2022 Crypto.com
+*  @copyright  2024 Crypto.com
 *  @license    http://www.apache.org/licenses/LICENSE-2.0  Apache License, Version 2.0
 */
 
 $sql = array();
 
-$sql[] = 'CREATE TABLE `' . _DB_PREFIX_ . 'crypto_pay_refund` (
+$sql[] = 'CREATE TABLE IF NOT EXISTS `' . _DB_PREFIX_ . 'crypto_pay_refund` (
   `id_crypto_refund` int(11) NOT NULL AUTO_INCREMENT,
   `id` varchar(150) NOT NULL,
   `currency` varchar(10) NOT NULL,

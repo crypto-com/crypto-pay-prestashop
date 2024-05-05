@@ -1,5 +1,5 @@
 {*
-* Copyright 2022 Crypto.com
+* Copyright 2024 Crypto.com
 *
 * NOTICE OF LICENSE
 *
@@ -16,7 +16,7 @@
 * limitations under the License.
 *
 *  @author     Crypto.com <pay@crypto.com>
-*  @copyright  2022 Crypto.com
+*  @copyright  2024 Crypto.com
 *  @license    http://www.apache.org/licenses/LICENSE-2.0  Apache License, Version 2.0
 *}
 <div class="row">

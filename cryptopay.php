@@ -1,6 +1,6 @@
 <?php
 /*
-* Copyright 2022 Crypto.com
+* Copyright 2024 Crypto.com
 *
 * NOTICE OF LICENSE
 *
@@ -17,7 +17,7 @@
 * limitations under the License.
 *
 *  @author     Crypto.com <pay@crypto.com>
-*  @copyright  2022 Crypto.com
+*  @copyright  2024 Crypto.com
 *  @license    http://www.apache.org/licenses/LICENSE-2.0  Apache License, Version 2.0
 */
 
@@ -43,7 +43,7 @@ class Cryptopay extends PaymentModule
     {
         $this->name = 'cryptopay';
         $this->tab = 'payments_gateways';
-        $this->version = '1.0.1';
+        $this->version = '1.0.2';
         $this->ps_versions_compliancy = array('min' => '1.7', 'max' => _PS_VERSION_);
         $this->author = 'Crypto.com';
         $this->controllers = array('validation');
@@ -55,9 +55,9 @@ class Cryptopay extends PaymentModule
         parent::__construct();
         $this->displayName = $this->l('Crypto.com Pay');
         $this->description = $this->l(
-            'Crypto.com Pay Payment is a Module of Crypto.com Pay,
-            which utilises Crypto.com Chain as a high performing native blockchain solution.
-            This enables the transaction flows between crypto users and merchants seamless, cost-efficient and secure.'
+            'Crypto.com Pay for Business is a product of Crypto.com Pay, which utilises Crypto.com App, 
+            Cronos PoS Chain, and Cronos to be a high-performing payment solution. 
+            This enables the transaction flows between crypto users and merchants seamless, cost-efficient, and secure.'
         );
         if (!count(Currency::checkPaymentCurrencies($this->id))) {
             $this->warning = $this->l('No currency has been set for this module.');

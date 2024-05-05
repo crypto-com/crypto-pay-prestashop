@@ -1,6 +1,6 @@
 <?php
 /*
-* Copyright 2022 Crypto.com
+* Copyright 2024 Crypto.com
 *
 * NOTICE OF LICENSE
 *
@@ -17,7 +17,7 @@
 * limitations under the License.
 *
 *  @author     Crypto.com <pay@crypto.com>
-*  @copyright  2022 Crypto.com
+*  @copyright  2024 Crypto.com
 *  @license    http://www.apache.org/licenses/LICENSE-2.0  Apache License, Version 2.0
 */
 
@@ -267,19 +267,19 @@ class CryptoPayValidationModuleFrontController extends ModuleFrontController
                     }    
                         
                     die(
-                        Tools::jsonEncode(
+                        json_encode(
                             array(
                                 'redirect' => $url
                             )
                         )
                     );
                 }
-                die(Tools::jsonEncode(array('waiting' => '5')));
+                die(json_encode(array('waiting' => '5')));
             } else {
-                die(Tools::jsonEncode(array('waiting' => '5')));
+                die(json_encode(array('waiting' => '5')));
             }
         } else {
-            die(Tools::jsonEncode(array('waiting' => '5 ')));
+            die(json_encode(array('waiting' => '5 ')));
         }
     }
 }
